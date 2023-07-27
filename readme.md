@@ -36,7 +36,7 @@ git clone https://github.com/SheikhMizan/Pomodoro.git
 3. Navigate to the project directory.
 
 ```bash
-cd pomodoro-app
+cd Pomodoro
 ```
 
 4. Install the required dependencies.
