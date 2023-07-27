@@ -12,9 +12,8 @@
 
 ## Introduction
 
-The Python Pomodoro Application is a simple and efficient time management tool based on the Pomodoro Technique. It helps you stay focused and productive by breaking work into intervals (traditionally 25 minutes) separated by short breaks.
+The Python Pomodoro Application is a simple and efficient time management tool based on the Pomodoro Technique. It helps you stay focused and productive by breaking work into intervals separated by short breaks.
 
-The Pomodoro Technique is a popular time management method developed by Francesco Cirillo in the late 1980s. It encourages users to work with full concentration for a set period and then take a short break, increasing productivity and reducing burnout.
 
 ## Features
 
@@ -31,7 +30,7 @@ The Pomodoro Technique is a popular time management method developed by Francesc
 2. Clone this repository to your local machine or download the ZIP file and extract it.
 
 ```bash
-git clone https://github.com/yourusername/pomodoro-app.git
+git clone https://github.com/SheikhMizan/Pomodoro.git
 ```
 
 3. Navigate to the project directory.
@@ -72,24 +71,8 @@ python pomodoro.py --help
 
 ## Configuration
 
-You can customize the application's behavior by modifying the `config.py` file. Here, you can change notification sounds, notification intervals, and other settings.
+You can customize the application's behavior by modifying the `pomodoro.py` file. Here, you can change notification sounds, notification intervals, and other settings.
 
-```python
-# config.py
-
-# Work and break intervals (in minutes)
-WORK_INTERVAL = 25
-BREAK_INTERVAL = 5
-
-# Sound paths for notifications
-WORK_NOTIFICATION_SOUND = "sounds/work_notification.wav"
-BREAK_NOTIFICATION_SOUND = "sounds/break_notification.wav"
-
-# Number of Pomodoros to complete before taking a long break
-POMODOROS_BEFORE_LONG_BREAK = 4
-
-# ... other configuration options ...
-```
 
 ## License
 
