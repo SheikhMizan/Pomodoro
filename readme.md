@@ -50,7 +50,7 @@ pip install -r requirements.txt
 To start the Pomodoro timer, run the following command:
 
 ```bash
-python pomodoro.py start
+python Pomodoro.py start
 ```
 
 The application will prompt you to enter the duration of the work interval and the break interval in minutes. After setting the intervals, the Pomodoro timer will begin, and you'll receive visual and audible notifications at the end of each interval.
@@ -60,13 +60,13 @@ To pause the timer, press `Ctrl + C` in the terminal. To resume the timer, run t
 To reset the number of completed Pomodoros, run:
 
 ```bash
-python pomodoro.py reset
+python Pomodoro.py reset
 ```
 
 To display the help message and see all available commands, run:
 
 ```bash
-python pomodoro.py --help
+python Pomodoro.py --help
 ```
 
 ## Configuration
